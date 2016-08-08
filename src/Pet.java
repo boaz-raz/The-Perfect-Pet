@@ -80,11 +80,12 @@ public class Pet implements java.io.Serializable
 
 
 
-    public void printStatus()
-    {
-        System.out.println("Testing Pet class");
-    }
+//    public void printStatus()
+//    {
+//        System.out.println("Testing Pet class");
+//    }
 
+    // convert to string
     @Override
     public String toString() {
         return "Pet{" +
@@ -95,6 +96,7 @@ public class Pet implements java.io.Serializable
                 ", hunger=" + hunger +
                 ", age=" + age +
                 ", hairHeight=" + hairHeight +
-                '}';
+                '}' + "\n";
     }
-}
+
+} // end Pet class
